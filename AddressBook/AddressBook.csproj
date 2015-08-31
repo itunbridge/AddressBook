@@ -168,7 +168,14 @@
   <ItemGroup>
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="javascript\actions\contactActions.js" />
+    <Content Include="javascript\api\contactApi.js" />
     <Content Include="javascript\app.js" />
+    <Content Include="javascript\stores\contactStore.js" />
+    <Content Include="javascript\vendor\Dispatcher-hacked.js" />
+    <Content Include="javascript\vendor\EventEmitter.min.js" />
+    <Content Include="javascript\vendor\Flux.min.js" />
+    <Content Include="javascript\vendor\lodash.min.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
